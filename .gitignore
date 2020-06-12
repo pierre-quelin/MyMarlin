@@ -147,7 +147,3 @@ CMakeListsPrivate.txt
 
 #CLion
 cmake-build-*
-/.settings/
-/.cproject
-/.project
-/spec.d
