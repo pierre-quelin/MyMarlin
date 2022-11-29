@@ -5,6 +5,7 @@ on:
   push:
     branches:
     - MyCR10-S_2.1.x
+    - test
     paths-ignore:
     - config/**
     - data/**
@@ -48,3 +49,9 @@ jobs:
 
     - name: Run PlatformIO
       run: pio run
+      
+    - name: Upload the Build Artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: Robin_e3.bin
+        path: .pio/build/mks_robin_e3/Robin_e3.bin
