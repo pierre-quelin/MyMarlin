@@ -558,11 +558,11 @@ namespace Language_en {
   LSTR MSG_BLTOUCH_MODE_STORE_OD          = _UxGT("Set BLTouch to OD");
   LSTR MSG_BLTOUCH_MODE_ECHO              = _UxGT("Report Drain");
   LSTR MSG_BLTOUCH_MODE_CHANGE            = _UxGT("DANGER: Bad settings can cause damage! Proceed anyway?");
-  LSTR MSG_TOUCHMI_PROBE                  = _UxGT("TouchMI");
-  LSTR MSG_TOUCHMI_INIT                   = _UxGT("Init TouchMI");
+  LSTR MSG_TOUCHMI_PROBE                  = _UxGT("Jacky Touch");
+  LSTR MSG_TOUCHMI_INIT                   = _UxGT("Init Jacky Touch");
   LSTR MSG_TOUCHMI_ZTEST                  = _UxGT("Z Offset Test");
   LSTR MSG_TOUCHMI_SAVE                   = _UxGT("Save");
-  LSTR MSG_MANUAL_DEPLOY_TOUCHMI          = _UxGT("Deploy TouchMI");
+  LSTR MSG_MANUAL_DEPLOY_TOUCHMI          = _UxGT("Deploy Jacky Touch");
   LSTR MSG_MANUAL_DEPLOY                  = _UxGT("Deploy Z-Probe");
   LSTR MSG_MANUAL_STOW                    = _UxGT("Stow Z-Probe");
   LSTR MSG_HOME_FIRST                     = _UxGT("Home %s%s%s First");
